@@ -1,0 +1,10 @@
+import pandas as pd
+
+# Cambia 'nombre_archivo.csv' al nombre de tu archivo CSV
+nombre_archivo = 'nombre_archivo.csv'
+
+# Cargar el archivo CSV en un DataFrame de Pandas
+dataframe = pd.read_csv(nombre_archivo)
+
+# Ahora puedes trabajar con el DataFrame 'dataframe'
+print(dataframe.head())  # Muestra las primeras filas del DataFrame
